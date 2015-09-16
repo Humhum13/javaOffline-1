@@ -72,7 +72,7 @@ public class Account {
 
     public void debit (double tk)
     {
-        if(balance<tk)  System.out.println(" !!!");
+        if(balance<tk)  System.out.println("You dont have enough balance");
         else balance-=tk;
 
     }
